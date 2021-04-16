@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ussd Mobile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ussd">USSD</string>
+    <string name="internet">Internet</string>
+    <string name="daqiqa">Daqiqa</string>
+    <string name="tariff">Tarif</string>
+    <string name="xizmatlar">Xizmatlar</string>
+    <string name="sms">SMS</string>
+    <string name="balance">Balans</string>
+    <string name="opreator">Operator</string>
+    <string name="home">Bosh sahifa</string>
+    <string name="trafik">Trafik</string>
+    <string name="sozlamalar">Sozlamalar</string>
+    <string name="o_zbek_tili">O\'zbek tili</string>
+    <string name="russian_language">Русский язик</string>
+    <string name="kirill_language">Ўзбек тили</string>
+</resources>

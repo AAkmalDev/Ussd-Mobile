@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LanguageActivity">
+
+    <Button
+        android:id="@+id/uzbek_btn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:text="@string/o_zbek_tili"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        app:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/russian_btn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/russian_language"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        app:backgroundTint="@color/white" />
+
+    <Button
+        android:id="@+id/kiril_btn"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/kirill_language"
+        android:textAllCaps="false"
+        android:textColor="#000"
+        app:backgroundTint="@color/white" />
+</LinearLayout>

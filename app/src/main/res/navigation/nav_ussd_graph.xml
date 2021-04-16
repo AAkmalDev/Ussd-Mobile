@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_ussd_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.onveti.ussdmobile.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+    <fragment
+        android:id="@+id/tarifFragment"
+        android:name="uz.onveti.ussdmobile.ui.TarifFragment"
+        android:label="fragment_tarif"
+        tools:layout="@layout/fragment_tarif" />
+    <fragment
+        android:id="@+id/packageFragment"
+        android:name="uz.onveti.ussdmobile.ui.PackageFragment"
+        android:label="fragment_package"
+        tools:layout="@layout/fragment_package" />
+    <fragment
+        android:id="@+id/ussdFragment"
+        android:name="uz.onveti.ussdmobile.ui.UssdFragment"
+        android:label="fragment_ussd"
+        tools:layout="@layout/fragment_ussd" />
+</navigation>
